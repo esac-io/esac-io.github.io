@@ -1,0 +1,35 @@
+// -*- mode: scss; indent-tabs-mode: nil; css-indent-offset: 2 -*-
+
+// Written in 2017 by Mohammed Sadiq <www.sadiqpk.org>
+
+// To the extent possible under law, the author(s) have dedicated all
+// copyright and related and neighboring rights to this software to
+// the public domain worldwide. This software is distributed without
+// any warranty.
+
+// You should have received a copy of the CC0 Public Domain Dedication
+// along with this software. If not, see
+// <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+
+#postamble {
+  font-size: 0.75em;
+  color: white;
+  text-align: center;
+  background-color: #262626;
+  padding-bottom: 1em;
+  margin-top: 5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  line-height: 1.9em;
+  a {
+    color: white;
+    transition: box-shadow 0.3s;
+    @include box-shadow(0 2px white);
+  }
+  a:hover {
+    color: white;
+    @include box-shadow(0 4px white);
+  }
+  ul {list-style: none;}
+}

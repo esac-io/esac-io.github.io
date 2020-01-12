@@ -1,0 +1,48 @@
+// -*- mode: scss; indent-tabs-mode: nil; css-indent-offset: 2 -*-
+
+// Written in 2017 by Mohammed Sadiq <www.sadiqpk.org>
+
+// To the extent possible under law, the author(s) have dedicated all
+// copyright and related and neighboring rights to this software to
+// the public domain worldwide. This software is distributed without
+// any warranty.
+
+// You should have received a copy of the CC0 Public Domain Dedication
+// along with this software. If not, see
+// <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+.f-right {float:right;}
+.f-left {float: left;}
+
+p {margin-bottom: 1.4em;}
+
+.key {
+  font-family: $font-code;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+span.key {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 0.9em;
+  padding: 0 10px;
+  color: $color-white;
+  background: #222;
+  border: 1px solid #999;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px #222;
+}
+
+.info {
+  display: block;
+  border-left: 5px solid $color-blue;
+  padding-left: 10px;
+  background: $color-llblue;
+  margin-bottom: 1.4em;
+}
+
+.danger, .warning {
+  border-left: 7px solid $color-orange;
+  background: $color-llorange;
+}

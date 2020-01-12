@@ -1,0 +1,65 @@
+#+title: Hello World
+#+date: <2020-01-12 Sun 15:47>
+#+created: <2020-01-12 Sun 00:01>
+#+creator: blog/2020/01/12/hello-world
+#+setupfile: ../../../../include/post.org
+#+keywords: org-mode, emacs, hello-world
+#+description: Hello world blog
+
+{{{info(Note:, This is a demo page to test the features of this blog.
+Don’t expect much here.)}}}
+
+In the software world, everything begins with ~Hello World~. This is
+the blog's beginning.  Let’s see how this will go.  This page stands
+to test the features of this blog.
+
+This website has been completely designed using GNU Emacs. The static
+web pages are written in Emacs org-mode and exported to HTML.
+If you are not yet a [[https://www.gnu.org/software/emacs/][GNU Emacs]] user, give it a try. It’s worth learning.
+
+To begin with, let’s see how code blocks in different language will be handled.
+This should be pretty smooth, and cool .
+
+* ~Hello World~
+
+  How about showing some real content?  Have a look at a few
+  examples below.
+
+** C Programming
+
+   Let’s begin with ~Hello World~ in C Programming.
+
+   #+BEGIN_SRC c
+   #include <stdio.h>
+
+   int main(int argc, char *argv[])
+   {
+     printf("%s\n", "hello world\n");
+     return 0;
+   }
+   #+END_SRC
+
+   Save the above code into ~hello.c~, then compile and run.
+
+   #+begin_src sh
+
+   # Compile and run
+   cc hello.c -o hello && ./hello
+
+   # An alternate way for the same.  If you are
+   # wondering, no, you don't need any Makefile.
+   make hello && ./hello
+
+   #+end_src
+
+** Emacs lisp
+
+   Now let’s try this in elisp.  The code below will print “Hello World!”
+   to the echo area.  To run the program, write the code in GNU Emacs,
+   put the cursor at end of the paren and press {{{key(C-x C-e)}}}
+   (eval-last-sexp).
+
+   #+begin_src elisp
+   (message "Hello World!")
+   ;; Put the cursor here  ^
+   #+end_src

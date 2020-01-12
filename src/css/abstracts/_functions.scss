@@ -1,0 +1,31 @@
+// -*- mode: scss; indent-tabs-mode: nil; css-indent-offset: 2 -*-
+
+// Written in 2017 by Mohammed Sadiq <www.sadiqpk.org>
+
+// To the extent possible under law, the author(s) have dedicated all
+// copyright and related and neighboring rights to this software to
+// the public domain worldwide. This software is distributed without
+// any warranty.
+
+// You should have received a copy of the CC0 Public Domain Dedication
+// along with this software. If not, see
+// <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+
+// check if $var is prefixed with $string.
+@function string-prefix-p ($var, $string) {
+  @if type-of($string) != 'string' {
+    @return false;
+  }
+
+  $length: str-length($string);
+  @if str-length($var) < str-length($string) {
+    @return false;
+  }
+
+  @if str-slice($var, 0, $length) == $string {
+    @return true;
+  }
+
+  @return false;
+}

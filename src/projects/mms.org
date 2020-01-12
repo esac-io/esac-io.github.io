@@ -1,0 +1,22 @@
+#+title: MMS
+#+date: <2020-01-12 Sun 08:58>
+#+created: <2020-01-12 Sun 08:58>
+#+creator: projects/mms
+#+setupfile: ../include/projects.org
+#+keywords: mips, simulator
+#+description: Just another emacs configuration
+
+* Introduction
+
+  Micro mips simulator in c, its purpose and have few dependencies has
+  possible, be optimized and fast, in the future a console will be
+  integrated for quick access to required information
+  (memory dump, registers values, instructions fields, program counter, etc).
+
+  Source: {{{git(mms)}}}
+
+* License
+
+  Copyright 2020 esac-io <esac-io@tp.org>
+
+  #+include: ../include/mit.org

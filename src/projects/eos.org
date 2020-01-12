@@ -1,0 +1,20 @@
+#+title: EOS
+#+date: <2020-01-12 Sun 08:58>
+#+created: <2020-01-12 Sun 08:58>
+#+creator: projects/eos
+#+setupfile: ../include/projects.org
+#+keywords: emacs, emacs configuration, init.el, .emacs.d
+#+description: Just another emacs configuration
+
+* Introduction
+
+  EOS is a emacs configuration that provides a complete io
+  bridge between human and machine.
+
+  Source: {{{git(eos)}}}
+
+* License
+
+  Copyright 2020 esac-io <esac-io@.org>
+
+  #+include: ../include/gpl3+.org

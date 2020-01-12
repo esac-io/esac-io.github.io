@@ -1,0 +1,27 @@
+#+title: esac-io's Website
+#+date: <2020-01-12 Sun 16:30>
+#+created: <2020-01-12 Sun 16:30>
+#+creator: home
+#+setupfile: include/home.org
+#+description: Website of esac-io
+#+export_file_name: index
+#+html_head: <link href="css/site.css" rel="stylesheet">
+#+html_head_extra: <link href="https://esac-io.github.org" rel="canonical">
+#+options: H:3
+
+* About
+
+  Hello, I’m Isaac, a data oriented programmer,
+  emacs student and open source enthusiast.
+
+  In the header bar you can navigate to the pages: blog, contact,
+  resume, projects and github repository.
+
+  I will try to write blog posts about:
+  mathematics, philosophy, algorithms, data oriented
+  programming, emacs (elisp), low level technologies,
+  signal processing, but occasionly, my personal views
+  and some arbitrary thoughts.
+
+  This website has been written in Emacs org-mode and nothing else,
+  the source code it's available at [[https://github.com/esac-io/esac-io.github.io][repo]].

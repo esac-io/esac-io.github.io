@@ -1,0 +1,30 @@
+// -*- mode: scss; indent-tabs-mode: nil; css-indent-offset: 2 -*-
+
+// Written in 2017 by Mohammed Sadiq <www.sadiqpk.org>
+
+// To the extent possible under law, the author(s) have dedicated all
+// copyright and related and neighboring rights to this software to
+// the public domain worldwide. This software is distributed without
+// any warranty.
+
+// You should have received a copy of the CC0 Public Domain Dedication
+// along with this software. If not, see
+// <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+
+@include font('Roboto', '../fonts/roboto-italic', italic, 400, 'Roboto Italic', 'Roboto-Italic');
+@include font('Roboto', '../fonts/roboto-medium', normal, 500, 'Roboto Medium', 'Roboto-Medium');
+@include font('Roboto', '../fonts/roboto-regular', normal, 400, 'Roboto', 'Roboto-Regular');
+@include font('Rachana', '../fonts/rachana-regular', normal, 400, 'Rachana');
+@include font('FontAwesome', '../fonts/fontawesome', normal, 400, 'FontAwesome');
+@include font('Ubuntu Mono', '../fonts/ubuntumono-b', normal, 600, 'Ubuntu Mono Bold', 'UbuntuMono-Bold');
+@include font('Ubuntu Mono', '../fonts/ubuntumono-ri', italic, 400, 'Ubuntu Mono Italic', 'UbuntuMono-Italic');
+@include font('Ubuntu Mono', '../fonts/ubuntumono-r', normal, 400, 'Ubuntu Mono', 'UbuntuMono-Regular');
+
+body {
+  font: {
+    family: $font-text;
+    size: 1.7em;
+  }
+  color: $color-text-dark;
+}

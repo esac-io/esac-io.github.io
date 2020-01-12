@@ -1,0 +1,75 @@
+// -*- mode: scss; indent-tabs-mode: nil; css-indent-offset: 2 -*-
+
+// Written in 2017 by Mohammed Sadiq <www.sadiqpk.org>
+
+// To the extent possible under law, the author(s) have dedicated all
+// copyright and related and neighboring rights to this software to
+// the public domain worldwide. This software is distributed without
+// any warranty.
+
+// You should have received a copy of the CC0 Public Domain Dedication
+// along with this software. If not, see
+// <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+
+.nav {
+  .show-menu {
+    @include no-select();
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: none;
+    text-align: center;
+    margin: 10px 25px 0 0;
+    padding: 10px 20px;
+    display: none;
+  }
+
+  #show-menu {display: none;}
+
+  input[type=checkbox] {
+    display: none;
+    -webkit-appearance: none;
+    &:checked {
+      ~ #menu {display: block;}
+      + label {background: #eee;}
+    }
+  }
+}
+
+@mixin nav-menu-sm() {
+  .nav .show-menu {display:block}
+
+  #menu {
+    display: none;
+    margin: -10px;
+    line-height: 1em;
+    margin-right: 25px;
+    ul {
+      width: 7em;
+      clear: both;
+      border: 1px solid #999;
+      position: relative;
+      z-index: 999;
+    }
+    ul li {
+      width: 7em;
+    }
+
+    // FIXME: This is a hack.
+    ul li a {
+      width: 5.5em;
+    }
+    .f-left, .f-right {
+      float: right;
+      margin: 0;
+    }
+
+    .f-left {
+      border-bottom: none;
+    }
+    .f-right {
+      border-top: none;
+    }
+  }
+}
