@@ -1,7 +1,7 @@
 * Blog using Emacs org-mode
 
   This repository contains the source code for my github pages
-  [[https://esac-io.github.io][esac-io.github.io].
+  [[https://esac-io.github.io][esac-io.github.io]].
 
   The original design and code was provided by Mohammed Sadiq,
   and are available at [[https://gitlab.com/sadiq/sadiq.gitlab.io][sadiq.gitlab.io]]
@@ -11,9 +11,6 @@
   Feel free to use it the way you wish.  Please note that the
   source of Emacs package [[https://github.com/hniksic/emacs-htmlize][htmlize]] is included in the repo.  It
   is licensed under GNU GPLv2+.
-
-  *Note:* The article content may have a different license than
-  CC0.
 
 * Some hacks
 
