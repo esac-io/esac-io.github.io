@@ -15,7 +15,7 @@
 
   I'm an information technology professional
   with a Bachelor's Degree in Computer Engineering.
-  The focus of my studies are: algorithms, data oriented
+  My studies are focused on: algorithms, data oriented
   programming, software architecture, low level technologies
   and mathematical concepts applied to computer science.
   #+BEGIN_SRC
@@ -88,8 +88,8 @@
 
     The Loopkey is an embedded system, designed to be coupled to any eletronic lock
     device, adding to it more functionality and security.
-    The mobile application(android/ios) is used to control the
-    loopkey(lock device). The communication is made using the bluetooth
+    The mobile application (android/ios) is used to control the
+    loopkey (lock device). The communication is made using the bluetooth
     protocol and the security of the channel is guaranteed by Speck
     encryption algorithm.
 
