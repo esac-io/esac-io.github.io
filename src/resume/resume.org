@@ -9,7 +9,7 @@
 #+options: H:3
 
 * Isaac (esac-io)
-  Email | [[http://www.github.com/esac-io][Githut]] | [[https://www.linkedin.com][Linkedin]]
+  Email | [[http://www.github.com/esac-io][Github]] | [[https://www.linkedin.com][Linkedin]]
 
 * ▐ Bio
 
