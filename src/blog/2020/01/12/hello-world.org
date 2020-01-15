@@ -34,7 +34,7 @@ This should be pretty smooth, and cool .
 
    int main(int argc, char *argv[])
    {
-     printf("%s\n", "hello world\n");
+     printf("%s\n", "hello world");
      return 0;
    }
    #+END_SRC

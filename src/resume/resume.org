@@ -1,0 +1,227 @@
+#+title: esac-io's Resume
+#+date: <2020-01-14 Tue 16:30>
+#+created: <2020-01-14 Tue 16:30>
+#+creator: resume
+#+setupfile: ../include/home.org
+#+export_file_name: resume.html
+#+html_head: <link href="css/site.css" rel="stylesheet">
+#+html_head_extra: <link href="https://esac-io.github.org" rel="canonical">
+#+options: H:3
+
+* Isaac (esac-io)
+  Email | [[http://www.github.com/esac-io][Githut]] | [[https://www.linkedin.com][Linkedin]]
+
+* ▐ Bio
+
+  I'm an information technology professional
+  with a Bachelor's Degree in Computer Engineering.
+  The focus of my studies are: algorithms, data oriented
+  programming, software architecture, low level technologies
+  and mathematical concepts applied to computer science.
+  #+BEGIN_SRC
+  #+END_SRC
+
+* ▐ Experience
+  # # ** Devops Enginner: Rhizom Foundation, 2019 - Present
+
+  #    Responsible for automating deployment processes
+  #    involving the entire production chain of the company.
+
+  # *** Maestro
+
+  #     Foo, bar, bla
+
+  # **** Assignments:
+
+  #      * Researcher
+  #      * Software Architecture
+  #      * Software Development
+  #      * Beta Tester
+  #      * Deployment
+
+  # **** Applied technologies:
+  #      * sh
+  #      * docker
+  #      * docker-compose
+  #      * git
+  #      * wget, fetch, curl
+
+  # *** Metrics
+
+  #     - Assignments:
+  #       * Researcher
+  #       * Software Development
+  #       * Metrics gathering/pushing
+  #       * Metrics visualization (graphics)
+  #       * Deployment
+
+  #     - Applied technologies:
+  #       * Go
+  #       * Shellscript
+  #       * Docker Statistics
+  #       * Prometheus
+  #         - App and lib (clientgo)
+  #       * PushGateWay
+  #       * Grafana
+
+  # *** Server
+  #     Applied technologies:
+  #     - FreeBSD
+  #     - ZFS
+  #       * ZPOOLS -  (RAID, MIRROR, ...)
+  #     - OpenSSH
+  #     - Bhyve
+  #     - Vm-bhyve (Cloud)
+  #       - ISOS
+  #         * FreeBSD
+  #         * OpenBSD
+  #         * Alpine
+  #         * Debian
+  #         * Ubuntu
+  #     - Kubernets
+  #     - Docker
+  #     - Docker Compose
+  #     - Samba
+  #     - NFS
+** Computer Engineer: Loopce (2014 - 2018)
+*** LOOPKEY
+
+    The Loopkey is an embedded system, designed to be coupled to any eletronic lock
+    device, adding to him more functionality and security.
+    The mobile application(adroind/ios) is used to control the
+    loopkey(lock device). The communication is made using the bluetooth
+    protocol and the security of the channel is guaranteed by Speck
+    encryption algorithm.
+
+    * Assignments:
+
+    #+BEGIN_SRC
+    - Researcher
+    - Software Architecture
+    - Firmware Programming
+    - Optimization
+    - Debugging
+    - Tests Programming
+    - Deployment
+    #+END_SRC
+
+    * Applied technologies:
+
+    #+BEGIN_SRC
+      - C
+      - Python
+      - OpenOCD
+      - Nodic SDK
+      - Bluetooth
+      - Speck (Cryptograph Algorithm)
+    #+END_SRC
+
+*** CAVIT
+
+    The project aimed to inspect the dimensions
+    of credit cards (mainly the cavity reserved for the EMV chip)
+    through image processing algorithms. The input image
+    was captured by a high precision camera and its processing
+    resulted in metrics that could be further analyzed.
+
+    * Assignments:
+
+      #+BEGIN_SRC sh
+      - Software Architecture
+      - Full stack development
+      - Debugging
+      #+END_SRC
+
+    * Applied technologies:
+    #+BEGIN_SRC
+      - C++
+      - Qt
+      - OpenCV
+      - Python
+      - Cmake
+    #+END_SRC
+
+* ▐ Education
+** Bachelor's deegre (2011 - 2015)
+   Computer Engineering, UNB
+** Courses
+*** Nand2Tetris
+** Books
+* ▐ Achievements
+** First place: Hackathon Civico Cotidiano, Cotidiano Aceleradora (2016)
+
+   The hackathon theme was the application of technology to
+   solve social problems, our team was the winner through the
+   creation of an android app (chegouSUS) which tells you when
+   the medicine is available in the single health system.
+
+** Frist place: Cyber Security Challenge, Maxtera/Boeing (2014)
+
+   Our team solve a series of challenges related to information
+   security in order to gain access to diverse systems.
+
+* ▐ Lectures
+** Cryptorave: Fuzzing in pratice, finding software bugs (2014)
+* ▐ Languages
+** English
+   Full professional proficiency
+** Portuguese
+   Native or bilingual proficiency
+** Spanish
+   Limited working proficiency
+
+* ▐ Skills
+**** ▐ Programming Languages
+
+     #+BEGIN_SRC
+  - C / Cpp
+  - Go
+  - R
+  - Lisp
+  - Common Lisp
+  - Elisp
+  - ShellScript
+  - Sh
+  - Bash
+  - Fish
+  - Octave
+  - Python
+  - Perl
+  - Lua
+  - Vhdl
+  - Sql
+     #+END_SRC
+
+**** ▐ Tools & Tecnologies
+
+     #+BEGIN_SRC
+  - Emacs
+  - FreeBSD
+  - Vm-bhyve
+  - Linux
+  - NFS
+  - Git
+  - Fish
+  - Jails
+  - Docker
+  - Docker Compose
+  - Prometheus
+  - Pushgateway
+  - Grafana
+  - OpenOCD
+  - Make
+  - CMake
+  - SQLite3
+  - Octave
+  - Gcc
+  - Gdb
+  - Clang
+  - Ldb
+  - Radare2
+     #+END_SRC
+
+* ▐ Others Interests
+
+  Literature, History, Mathematics, Finance,
+  Traveling, Trekking, Nutrition, Agriculture,
+  DIY, etc...

@@ -1,6 +1,5 @@
 ;; my-web.el --- Generate static website from GNU Emacs org files
 
-
 ;; Written in 2018 by Mohammed Sadiq <sadiq@sadiqpk.org>
 
 ;; To the extent possible under law, the author(s) have dedicated all
@@ -37,7 +36,7 @@
     (setq value (concat value "</span>@@"))))
 
 (defun my-web-get-file-content (file)
-  "Return the content of the FILE as string"
+  "Return the content of the FILE as string."
   (with-temp-buffer
     (insert-file-contents file)
     (buffer-string)))
@@ -47,7 +46,6 @@
 
 PLACE is a string with values either 'preamble' or 'postamble'.
 SITE is user defined string Like 'blog', 'home' etc."
-
   (my-web-get-file-content
    (concat "src/include/" site "-" place ".html")))
 
@@ -59,6 +57,15 @@ SITE is user defined string Like 'blog', 'home' etc."
      :publishing-directory "public"
      :recursive nil
      :html-preamble ,(my-web-get-content "home" "preamble")
+     :html-postamble ,(my-web-get-content "home" "postamble")
+     :publishing-function org-html-publish-to-html)
+
+    ("resume"
+     :base-directory "src/resume"
+     :base-extension "org"
+     :publishing-directory "public"
+     :recursive nil
+     :html-preamble  ,(my-web-get-content "home" "preamble")
      :html-postamble ,(my-web-get-content "home" "postamble")
      :publishing-function org-html-publish-to-html)
 
@@ -105,7 +112,7 @@ SITE is user defined string Like 'blog', 'home' etc."
     :publishing-function org-html-publish-to-html)
 
     ("website"
-     :components ("home" "blog" "blog-images" "blog-posts"
+     :components ("home" "resume" "blog" "blog-images" "blog-posts"
                   "projects" "project-images"))))
 
 ;;; my-web.el ends here
