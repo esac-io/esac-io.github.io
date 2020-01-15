@@ -87,8 +87,8 @@
 *** LOOPKEY
 
     The Loopkey is an embedded system, designed to be coupled to any eletronic lock
-    device, adding to him more functionality and security.
-    The mobile application(adroind/ios) is used to control the
+    device, adding to it more functionality and security.
+    The mobile application(android/ios) is used to control the
     loopkey(lock device). The communication is made using the bluetooth
     protocol and the security of the channel is guaranteed by Speck
     encryption algorithm.
@@ -220,8 +220,14 @@
   - Radare2
      #+END_SRC
 
-* ▐ Others Interests
-
-  Literature, History, Mathematics, Finance,
-  Traveling, Trekking, Nutrition, Agriculture,
-  DIY, etc...
+** ▐ Others Interests
+-------------------------------------
+- Literature
+- History
+- Mathematics
+- Finance
+- Traveling
+- Trekking
+- Nutrition
+- Agriculture
+- DIY
