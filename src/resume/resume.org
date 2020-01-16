@@ -116,6 +116,7 @@
     #     - Samba
     #     - NFS
 
+*** Infra
 ** Computer Engineer: Loopce (2014 - 2018)
 *** LOOPKEY
 
@@ -179,13 +180,23 @@
    Computer Engineering, UNB
 ** Courses
 *** Nand2Tetris
+
+    Nand2Tetris, is a course that aims to engineer a modern
+    computer using only as a building block the NAND logic gate.
+
+    - https://www.nand2tetris.org
+
 ** Books
+*** The Elements of Computing Systems: Building a Modern Computer from First Principles
+    Noam Nisan, Shimon Schocken
 *** Mathematics for Computer Science (2017)
     Eric Lehman, F Tom Leighton, Albert R Meyer
 *** The Design and Analysis of Computer Algorithms (1974)
     Alfred V. Aho, John E. Hopcroft, Jeffrey D. Ullman
 *** Real-Time Collision Detection (2004)
     Christer Ericson
+*** Advanced Algorithmic Trading (2017)
+    Mike Halls Moore
 * ▐ Achievements
 ** First place: Hackathon Civico Cotidiano, Cotidiano Aceleradora (2016)
 
