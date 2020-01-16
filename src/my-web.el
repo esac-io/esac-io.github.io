@@ -65,8 +65,8 @@ SITE is user defined string Like 'blog', 'home' etc."
      :base-extension "org"
      :publishing-directory "public"
      :recursive nil
-     :html-preamble  ,(my-web-get-content "home" "preamble")
-     :html-postamble ,(my-web-get-content "home" "postamble")
+     :html-preamble  ,(my-web-get-content "resume" "preamble")
+     :html-postamble ,(my-web-get-content "resume" "postamble")
      :publishing-function org-html-publish-to-html)
 
    ("blog"

@@ -22,67 +22,79 @@
   #+END_SRC
 
 * ▐ Experience
-  # # ** Devops Enginner: Rhizom Foundation, 2019 - Present
+** Devops Enginner: Rhizom Foundation, 2019 - Present
+*** Maestro
 
-  #    Responsible for automating deployment processes
-  #    involving the entire production chain of the company.
+    Maestro is a container orchestrator,
+    written purely in shellscript (sh), which automates
+    the construction cycle of the composition (set of containers)
+    and their instantiation. It also provides a clear and intuitive
+    interface for applying various docker and docker-compose related actions,
+    making it easy to manage the application in question,
+    its dependencies, and its infrastructure.
+    Its flexibility allows it to be used at various stages
+    of the development cycle (continuous integration, continuous deployment).
 
-  # *** Maestro
+    * Assignments:
 
-  #     Foo, bar, bla
+    #+BEGIN_SRC
+    - Research
+    - Software Architecture
+    - Software Development
+    - Tests
+    - Installation
+    - Deployment
+    #+END_SRC
 
-  # **** Assignments:
+    * Applied technologies:
 
-  #      * Researcher
-  #      * Software Architecture
-  #      * Software Development
-  #      * Beta Tester
-  #      * Deployment
+    #+BEGIN_SRC
+    - sh
+    - docker
+    - docker-compose
+    - git
+    - curl
+    - awk
+    #+END_SRC
 
-  # **** Applied technologies:
-  #      * sh
-  #      * docker
-  #      * docker-compose
-  #      * git
-  #      * wget, fetch, curl
 
-  # *** Metrics
+    # *** Metrics
+    #     - Assignments:
+    #       * Researcher
+    #       * Software Development
+    #       * Metrics gathering/pushing
+    #       * Metrics visualization (graphics)
+    #       * Deployment
 
-  #     - Assignments:
-  #       * Researcher
-  #       * Software Development
-  #       * Metrics gathering/pushing
-  #       * Metrics visualization (graphics)
-  #       * Deployment
+    #     - Applied technologies:
+    #       * Go
+    #       * Shellscript
+    #       * Docker Statistics
+    #       * Prometheus
+    #         - App and lib (clientgo)
+    #       * PushGateWay
+    #       * Grafana
 
-  #     - Applied technologies:
-  #       * Go
-  #       * Shellscript
-  #       * Docker Statistics
-  #       * Prometheus
-  #         - App and lib (clientgo)
-  #       * PushGateWay
-  #       * Grafana
+    # *** Server
+    #     Applied technologies:
+    #     - FreeBSD
+    #     - ZFS
+    #       * ZPOOLS -  (RAID, MIRROR, ...)
+    #     - OpenSSH
+    #     - Bhyve
+    #     - Vm-bhyve (Cloud)
+    #       - ISOS
+    #         * FreeBSD
+    #         * OpenBSD
+    #         * Alpine
+    #         * Debian
+    #         * Ubuntu
+    #     - Kubernets
+    #     - Docker
+    #     - Docker Compose
+    #     - Samba
+    #     - NFS
 
-  # *** Server
-  #     Applied technologies:
-  #     - FreeBSD
-  #     - ZFS
-  #       * ZPOOLS -  (RAID, MIRROR, ...)
-  #     - OpenSSH
-  #     - Bhyve
-  #     - Vm-bhyve (Cloud)
-  #       - ISOS
-  #         * FreeBSD
-  #         * OpenBSD
-  #         * Alpine
-  #         * Debian
-  #         * Ubuntu
-  #     - Kubernets
-  #     - Docker
-  #     - Docker Compose
-  #     - Samba
-  #     - NFS
 ** Computer Engineer: Loopce (2014 - 2018)
 *** LOOPKEY
 
@@ -96,12 +108,12 @@
     * Assignments:
 
     #+BEGIN_SRC
-    - Researcher
+    - Research
     - Software Architecture
     - Firmware Programming
     - Optimization
     - Debugging
-    - Tests Programming
+    - Tests
     - Deployment
     #+END_SRC
 
@@ -174,20 +186,16 @@
 **** ▐ Programming Languages
 
      #+BEGIN_SRC
-  - C / Cpp
+  - C / C++
   - Go
   - R
   - Lisp
-  - Common Lisp
-  - Elisp
   - ShellScript
-  - Sh
-  - Bash
-  - Fish
-  - Octave
+    . Sh
+    . Fish
   - Python
-  - Perl
   - Lua
+  - Octave
   - Vhdl
   - Sql
      #+END_SRC
@@ -199,35 +207,28 @@
   - FreeBSD
   - Vm-bhyve
   - Linux
-  - NFS
   - Git
   - Fish
   - Jails
   - Docker
   - Docker Compose
   - Prometheus
-  - Pushgateway
   - Grafana
   - OpenOCD
-  - Make
   - CMake
   - SQLite3
-  - Octave
-  - Gcc
-  - Gdb
-  - Clang
-  - Ldb
-  - Radare2
+  - Clang / Gcc / Gdb
+  - Radare
      #+END_SRC
 
 ** ▐ Others Interests
--------------------------------------
-- Literature
-- History
-- Mathematics
-- Finance
-- Traveling
-- Trekking
-- Nutrition
-- Agriculture
-- DIY
+   -------------------------------------
+   - Literature
+   - History
+   - Mathematics
+   - Finance
+   - Traveling
+   - Trekking
+   - Nutrition
+   - Agriculture
+   - DIY
