@@ -10,5 +10,5 @@
 
 # TODO: This should be made simple, but how?
 
-{{{link(eos,Emacs OS,Just another emacs configuration)}}}
+{{{link(eos,EOS,Just another org-mode based emacs configuration)}}}
 {{{link(mms,MMS,Micro Mips Simulator)}}}

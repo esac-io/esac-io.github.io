@@ -8,8 +8,17 @@
 
 * Introduction
 
-  EOS is a emacs configuration that provides a complete io
-  bridge between human and machine.
+  Just another org-mode based emacs configuration,
+  or a elisp interpreter desktop distribution.
+
+  Using emacs (elisp interpreter) as the only IO bridge between human
+  and machine. In another words, a emacs configuration well design and
+  integrated, that provides a generic computer environment
+  for everyday use.
+
+  We rely on org-mode to organize the whole configuration in a logic
+  and manageable way, so the source code and its documentation are
+  contained in only one file: ~init.org~
 
   Source: {{{git(eos)}}}
 

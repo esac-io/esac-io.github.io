@@ -23,7 +23,7 @@
 
 * ▐ Experience
 ** Devops Engineer: Rhizom Foundation, 2019 - Present
-*** Maestro
+*** MAESTRO
 
     Maestro is a container orchestrator,
     written purely in shellscript (sh), which automates
@@ -57,13 +57,13 @@
     - awk
     #+END_SRC
 
-*** Metrics
+*** METRICS
 
     This project consisted of acquiring and visualizing metrics
     of projects under development / production.
     Captured metrics are saved as a time series in
-    Prometheus. Graphana consumes this time series
-    and provides means of constructing  graphs that will be
+    Prometheus, Grafana consumes it and provides
+    means of constructing graphs that will be
     used for future visualization and analysis.
 
     A Shellscript (sh) was created to deal with the
@@ -184,7 +184,7 @@
     The course aims to enginner a modern computer
     using only as a building block the NAND logic gate.
 
-    - https://www.nand2tetris.org
+    - [[https://www.nand2tetris.org][Nand2Tetris Course]]
 
 ** Books
    -----------------------------------------------
