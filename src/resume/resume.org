@@ -74,10 +74,13 @@
     - Assignments:
 
       #+BEGIN_SRC emacs-lisp
-      - Researcher
+      - Research
       - Software Development
-      - Metrics gathering
-      - Metrics visualization (graphics)
+      - Metrics
+         . Gathering / Graphics / Analysis
+      - Tests
+      - Installation
+      - Deployment
       #+END_SRC
 
     - Applied technologies:
