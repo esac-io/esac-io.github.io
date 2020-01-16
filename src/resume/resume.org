@@ -67,9 +67,9 @@
     used for future visualization and analysis.
 
     A Shellscript (sh) was created to deal with the
-    docker statistics and for the other projects a
-    Go module was developed, which is based on
-    Prometheus (client-golang).
+    docker statistics (parse and push)
+    and for the other projects a Go module was developed,
+    which is based on Prometheus (client-golang).
 
     - Assignments:
 
@@ -180,6 +180,12 @@
 ** Courses
 *** Nand2Tetris
 ** Books
+*** Mathematics for Computer Science (2017)
+    Eric Lehman, F Tom Leighton, Albert R Meyer
+*** The Design and Analysis of Computer Algorithms (1974)
+    Alfred V. Aho, John E. Hopcroft, Jeffrey D. Ullman
+*** Real-Time Collision Detection (2004)
+    Christer Ericson
 * ▐ Achievements
 ** First place: Hackathon Civico Cotidiano, Cotidiano Aceleradora (2016)
 
@@ -216,6 +222,7 @@
     . Fish
   - Python
   - Lua
+  - Perl
   - Octave
   - Vhdl
   - Sql
@@ -232,8 +239,8 @@
   - Fish
   - Jails
   - Docker
-  - Docker Compose
-  - Prometheus
+  - Docker-compose
+  - Prometheus / Pushgateway
   - Grafana
   - OpenOCD
   - CMake
