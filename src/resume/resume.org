@@ -77,7 +77,7 @@
       - Research
       - Software Development
       - Metrics
-         . Gathering / Graphics / Analysis
+      . Gathering / Graphics / Analysis
       - Tests
       - Installation
       - Deployment
@@ -86,13 +86,13 @@
     - Applied technologies:
 
     #+BEGIN_SRC emacs-lisp
-     - Go
-     - Shellscript
-     - Docker (stats command)
-     - Grafana
-     - Pushgateway
-     - Pometheus
-        . client-golang (library)
+    - Go
+    - Shellscript
+    - Docker (stats command)
+    - Grafana
+    - Pushgateway
+    - Pometheus
+    . client-golang (library)
     #+END_SRC
 
 
@@ -116,7 +116,7 @@
     #     - Samba
     #     - NFS
 
-*** Infra
+# *** Infra
 ** Computer Engineer: Loopce (2014 - 2018)
 *** LOOPKEY
 
@@ -181,22 +181,28 @@
 ** Courses
 *** Nand2Tetris
 
-    Nand2Tetris, is a course that aims to engineer a modern
-    computer using only as a building block the NAND logic gate.
+    The course aims to enginner a modern computer
+    using only as a building block the NAND logic gate.
 
     - https://www.nand2tetris.org
 
 ** Books
-*** The Elements of Computing Systems: Building a Modern Computer from First Principles
-    Noam Nisan, Shimon Schocken
+   -----------------------------------------------
+*** The Elements of Computing Systems (2005)
+    - Noam Nisan, Shimon Schocken
+    -----------------------------------------------
 *** Mathematics for Computer Science (2017)
-    Eric Lehman, F Tom Leighton, Albert R Meyer
+    - Eric Lehman, F Tom Leighton, Albert R Meyer
+    -----------------------------------------------
 *** The Design and Analysis of Computer Algorithms (1974)
-    Alfred V. Aho, John E. Hopcroft, Jeffrey D. Ullman
+    - Alfred V. Aho, John E. Hopcroft, Jeffrey D. Ullman
+    -----------------------------------------------
 *** Real-Time Collision Detection (2004)
-    Christer Ericson
+    - Christer Ericson
+    -----------------------------------------------
 *** Advanced Algorithmic Trading (2017)
-    Mike Halls Moore
+    - Mike Halls Moore
+    -----------------------------------------------
 * ▐ Achievements
 ** First place: Hackathon Civico Cotidiano, Cotidiano Aceleradora (2016)
 
