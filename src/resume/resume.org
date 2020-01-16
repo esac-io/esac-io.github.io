@@ -22,7 +22,7 @@
   #+END_SRC
 
 * ▐ Experience
-** Devops Enginner: Rhizom Foundation, 2019 - Present
+** Devops Engineer: Rhizom Foundation, 2019 - Present
 *** Maestro
 
     Maestro is a container orchestrator,
