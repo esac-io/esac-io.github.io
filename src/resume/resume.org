@@ -57,23 +57,41 @@
     - awk
     #+END_SRC
 
+*** Metrics
 
-    # *** Metrics
-    #     - Assignments:
-    #       * Researcher
-    #       * Software Development
-    #       * Metrics gathering/pushing
-    #       * Metrics visualization (graphics)
-    #       * Deployment
+    This project consisted of acquiring and visualizing metrics
+    of projects under development / production.
+    Captured metrics are saved as a time series in
+    Prometheus. Graphana consumes this time series
+    and provides means of constructing  graphs that will be
+    used for future visualization and analysis.
 
-    #     - Applied technologies:
-    #       * Go
-    #       * Shellscript
-    #       * Docker Statistics
-    #       * Prometheus
-    #         - App and lib (clientgo)
-    #       * PushGateWay
-    #       * Grafana
+    A Shellscript (sh) was created to deal with the
+    docker statistics and for the other projects a
+    Go module was developed, which is based on
+    Prometheus (client-golang).
+
+    - Assignments:
+
+      #+BEGIN_SRC emacs-lisp
+      - Researcher
+      - Software Development
+      - Metrics gathering
+      - Metrics visualization (graphics)
+      #+END_SRC
+
+    - Applied technologies:
+
+    #+BEGIN_SRC emacs-lisp
+     - Go
+     - Shellscript
+     - Docker (stats command)
+     - Grafana
+     - Pushgateway
+     - Pometheus
+        . client-golang (library)
+    #+END_SRC
+
 
     # *** Server
     #     Applied technologies:
