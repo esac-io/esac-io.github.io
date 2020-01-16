@@ -9,7 +9,7 @@
 * Introduction
 
   Micro MIPS Simulator, it's a CPU simulator written in C
-  with as few dependencies as possible.
+  with few dependencies as possible.
   Its purpose is to be fast and optimized.
 
   In the future a console will be integrated for quick access
