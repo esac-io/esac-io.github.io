@@ -27,12 +27,12 @@
 
     Maestro is a container orchestrator,
     written purely in shellscript (sh), which automates
-    the construction cycle of the composition (set of containers)
-    and their instantiation. It also provides a clear and intuitive
-    interface for applying various docker and docker-compose related actions,
-    making it easy to manage the application in question,
-    its dependencies, and its infrastructure.
-    Its flexibility allows it to be used at various stages
+    the composition's (containers set) construction and instantiation.
+    It also provides a clear and intuitive interface to standarnize
+    docker/docker-compose actions, making it easy to manage the
+    project, its dependencies, and its infrastructure.
+
+    Its flexibility allows it to be used at different stages
     of the development cycle (continuous integration, continuous deployment).
 
     * Assignments:
@@ -59,12 +59,11 @@
 
 *** METRICS
 
-    This project consisted of acquiring and visualizing metrics
-    of projects under development / production.
-    Captured metrics are saved as a time series in
-    Prometheus, Grafana consumes it and provides
-    means of constructing graphs that will be
-    used for future visualization and analysis.
+    This project consisted of acquiring/visualizing metrics
+    of projects under development/production. Metrics
+    are defined/saved as a time series using Prometheus.
+    Grafana consumes it and provides ways to create graphics that
+    can be used in the future for visualization and analysis.
 
     A Shellscript (sh) was created to deal with the
     docker statistics (parse and push)
@@ -77,7 +76,7 @@
       - Research
       - Software Development
       - Metrics
-      . Gathering / Graphics / Analysis
+        . Gathering / Graphics
       - Tests
       - Installation
       - Deployment
@@ -92,7 +91,7 @@
     - Grafana
     - Pushgateway
     - Pometheus
-    . client-golang (library)
+      . client-golang (library)
     #+END_SRC
 
 
@@ -117,6 +116,41 @@
     #     - NFS
 
 # *** Infra
+*** SYSADMIN
+
+    Internal server maintenance/configuration to provide
+    developers with ready-to-use virtualized resources
+    and basic infrastructure.
+
+    * Assignments:
+
+      #+BEGIN_SRC sh
+      - Installation
+      - Configuration
+      - Maintenance
+      - Automation
+      #+END_SRC
+
+    * Applied technologies:
+
+    #+BEGIN_SRC
+      - FreeBSD
+      - ZFS
+        . Raid
+        . Mirror
+        . Backups
+      - Bhyve (Hypervisor)
+      - Vm-bhyve (Cloud)
+        . ISOS:
+          . freebsd
+          . alpine
+          . debian
+          . ubuntu
+          . centos
+      - Webmin
+      - Samba
+    #+END_SRC
+
 ** Computer Engineer: Loopce (2014 - 2018)
 *** LOOPKEY
 
@@ -162,7 +196,7 @@
 
       #+BEGIN_SRC sh
       - Software Architecture
-      - Full stack development
+      - Software Development
       - Debugging
       #+END_SRC
 

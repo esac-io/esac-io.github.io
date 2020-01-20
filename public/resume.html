@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2020-01-16 Thu 17:32 -->
+<!-- 2020-01-20 Mon 09:33 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>esac-io's Resume</title>
@@ -69,12 +69,14 @@ and mathematical concepts applied to computer science.
 <p>
 Maestro is a container orchestrator,
 written purely in shellscript (sh), which automates
-the construction cycle of the composition (set of containers)
-and their instantiation. It also provides a clear and intuitive
-interface for applying various docker and docker-compose related actions,
-making it easy to manage the application in question,
-its dependencies, and its infrastructure.
-Its flexibility allows it to be used at various stages
+the composition's (containers set) construction and instantiation.
+It also provides a clear and intuitive interface to standarnize
+docker/docker-compose actions, making it easy to manage the
+project, its dependencies, and its infrastructure.
+</p>
+
+<p>
+Its flexibility allows it to be used at different stages
 of the development cycle (continuous integration, continuous deployment).
 </p>
 
@@ -110,12 +112,11 @@ of the development cycle (continuous integration, continuous deployment).
 <h4 id="org199619c">METRICS</h4>
 <div class="outline-text-4" id="text-org199619c">
 <p>
-This project consisted of acquiring and visualizing metrics
-of projects under development / production.
-Captured metrics are saved as a time series in
-Prometheus, Grafana consumes it and provides
-means of constructing graphs that will be
-used for future visualization and analysis.
+This project consisted of acquiring/visualizing metrics
+of projects under development/production. Metrics
+are defined/saved as a time series using Prometheus.
+Grafana consumes it and provides ways to create graphics that
+can be used in the future for visualization and analysis.
 </p>
 
 <p>
@@ -134,7 +135,7 @@ Assignments:
 <pre class="src src-emacs-lisp">- Research
 - Software Development
 - Metrics
-. Gathering / Graphics / Analysis
+  . Gathering / Graphics
 - Tests
 - Installation
 - Deployment
@@ -151,12 +152,57 @@ Assignments:
 - Grafana
 - Pushgateway
 - Pometheus
-. client-golang (library)
+  . client-golang (library)
 </pre>
 </div>
 </div>
 </div>
+<div id="outline-container-org8a8f508" class="outline-4">
+<h4 id="org8a8f508">SYSADMIN</h4>
+<div class="outline-text-4" id="text-org8a8f508">
+<p>
+Internal server maintenance/configuration to provide
+developers with ready-to-use virtualized resources
+and basic infrastructure.
+</p>
+
+<ul class="org-ul">
+<li><p>
+Assignments:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-sh">- Installation
+- Configuration
+- Maintenance
+- Automation
+</pre>
+</div></li>
+
+<li>Applied technologies:</li>
+</ul>
+
+<pre class="example">
+- FreeBSD
+- ZFS
+  . Raid
+  . Mirror
+  . Backups
+- Bhyve (Hypervisor)
+- Vm-bhyve (Cloud)
+  . ISOS:
+    . freebsd
+    . alpine
+    . debian
+    . ubuntu
+    . centos
+- Webmin
+- Samba
+</pre>
 </div>
+</div>
+</div>
+
 <div id="outline-container-orgc130c7f" class="outline-3">
 <h3 id="orgc130c7f">Computer Engineer: Loopce (2014 - 2018)</h3>
 <div class="outline-text-3" id="text-orgc130c7f">
@@ -220,7 +266,7 @@ Assignments:
 
 <div class="org-src-container">
 <pre class="src src-sh">- Software Architecture
-- Full stack development
+- Software Development
 - Debugging
 </pre>
 </div></li>
