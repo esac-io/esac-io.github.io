@@ -9,7 +9,7 @@
 #+options: H:3
 
 * Isaac (esac-io)
-  Email | [[http://www.github.com/esac-io][Github]] | [[https://www.linkedin.com][Linkedin]]
+  [[http://www.github.com/esac-io][Github]] | [[mailto:esac-io@tutanota.com][Email]]
 
 * ▐ Bio
 
