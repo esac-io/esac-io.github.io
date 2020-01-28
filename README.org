@@ -5,31 +5,3 @@
 
   The original design and code was provided by Mohammed Sadiq,
   and are available at [[https://gitlab.com/sadiq/sadiq.gitlab.io][sadiq.gitlab.io]]
-
-  The ~src~ directory contains the complete source for building
-  the blog.  The source is released into Public domain (CC0).
-  Feel free to use it the way you wish.  Please note that the
-  source of Emacs package [[https://github.com/hniksic/emacs-htmlize][htmlize]] is included in the repo.  It
-  is licensed under GNU GPLv2+.
-
-* Some hacks
-
-  To avoid writing custom code, a few hacks were used in the org
-  files:
-  - ~date~ keyword is used to denote last updated time, not the
-    article creation date.  ~created~ keyword is used for that.
-  - ~creator~ keyword is used to specify the relative path of
-    the org file.  It was used so because the value of ~creator~
-    can then be referenced in the HTML postamble by using ~%c~.
-
-* Building
-
-  Commands:
-    - emacs --batch -q -l src/htmlize.el -l src/my-web.el -f org-publish-all
-    - ./src/blog-atom.sh
-    - find public -type f -regex '.*\.\(html\|txt\|xml\|css\)$' -exec gzip -f -k {} \;
-
-  If you update the sass files in ~src/css~, you have to run
-  ~make~ from ~src/css~ directory, which will generate the css
-  file and copy it to ~public/css~ directory.
-  You will have to install [[https://github.com/sass/sassc][sassc]] to compile.

@@ -1,4 +1,0 @@
-#+setupfile: common.org
-#+options: title:t
-#+options: html-style:nil html-scripts:nil
-#+html_head: <link href="../css/site.css" rel="stylesheet">

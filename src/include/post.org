@@ -1,3 +1,0 @@
-#+setupfile: common.org
-#+options: title:t
-#+html_head: <link href="../../../../css/site.css" rel="stylesheet">
