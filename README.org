@@ -1,7 +1,0 @@
-* Blog using Emacs org-mode
-
-  This repository contains the source code for my github pages
-  [[https://esac-io.github.io][esac-io.github.io]].
-
-  The original design and code was provided by Mohammed Sadiq,
-  and are available at [[https://gitlab.com/sadiq/sadiq.gitlab.io][sadiq.gitlab.io]]
