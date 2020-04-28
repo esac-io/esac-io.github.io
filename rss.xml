@@ -4,7 +4,7 @@
 <title><![CDATA[Hidden Ones]]></title>
 <description><![CDATA[Hidden Ones]]></description>
 <link>https://esac-io.github.io/</link>
-<lastBuildDate>Tue, 28 Apr 2020 15:56:01 -0300</lastBuildDate>
+<lastBuildDate>Tue, 28 Apr 2020 16:04:19 -0300</lastBuildDate>
 <item>
   <title><![CDATA[Hello World]]></title>
   <description><![CDATA[
@@ -12,16 +12,16 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org1ca4200">Introduction</a></li>
-<li><a href="#orgf493755">Virtuality</a></li>
-<li><a href="#orgd9b0327">Just a whisper in my ghost</a></li>
+<li><a href="#orgb27258c">Introduction</a></li>
+<li><a href="#orgccf0225">Virtuality</a></li>
+<li><a href="#org8dd2fd8">Just a whisper in my ghost</a></li>
 </ul>
 </div>
 </nav>
 
-<div id="outline-container-org1ca4200" class="outline-2">
-<h2 id="org1ca4200">Introduction</h2>
-<div class="outline-text-2" id="text-org1ca4200">
+<div id="outline-container-orgb27258c" class="outline-2">
+<h2 id="orgb27258c">Introduction</h2>
+<div class="outline-text-2" id="text-orgb27258c">
 <p>
 Well, everyone knows how hard writing can be (even more challenging
 using a foreign language), so this blog was created as an attempt
@@ -38,9 +38,9 @@ from a troubled, disruptive and lazy mind, nothing more.
 </div>
 </div>
 
-<div id="outline-container-orgf493755" class="outline-2">
-<h2 id="orgf493755">Virtuality</h2>
-<div class="outline-text-2" id="text-orgf493755">
+<div id="outline-container-orgccf0225" class="outline-2">
+<h2 id="orgccf0225">Virtuality</h2>
+<div class="outline-text-2" id="text-orgccf0225">
 <p>
 Oh yes, the <code>artificial</code> world that surrounds our existence is
 growing at exponential rates. Virtual interfaces already are
@@ -57,23 +57,19 @@ that will obliterate every obsolete obstacle in its path.
 </p>
 
 <p>
-So its time for impose the inevitable question for yourself:
+So its time for impose the inevitable question:
 <code>How disposable am I?</code>
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgd9b0327" class="outline-2">
-<h2 id="orgd9b0327">Just a whisper in my ghost</h2>
-<div class="outline-text-2" id="text-orgd9b0327">
-<p>
-He
-</p>
-
-<p>
+<div id="outline-container-org8dd2fd8" class="outline-2">
+<h2 id="org8dd2fd8">Just a whisper in my ghost</h2>
+<div class="outline-text-2" id="text-org8dd2fd8">
+<pre class="example">
 And where does the newborn go from here?
 The net is vast and infinite!
-</p>
+</pre>
 </div>
 </div>
 <div class="taglist"><a href="https://esac-io.github.io/tags.html">Tags</a>: <a href="https://esac-io.github.io/tag-emacs.html">emacs</a> <a href="https://esac-io.github.io/tag-blog.html">blog</a> <a href="https://esac-io.github.io/tag-org-mode.html">org-mode</a> <a href="https://esac-io.github.io/tag-org-static-blog.html">org-static-blog</a> </div>]]></description>
@@ -81,8 +77,8 @@ The net is vast and infinite!
   <category><![CDATA[blog]]></category>
   <category><![CDATA[org-mode]]></category>
   <category><![CDATA[org-static-blog]]></category>
-  <link>https://esac-io.github.io/2020-04-27-hello-world.html</link>
-  <pubDate>Tue, 28 Apr 2020 15:56:01 -0300</pubDate>
+  <link>https://esac-io.github.io/2020-04-28-hello-world.html</link>
+  <pubDate>Tue, 28 Apr 2020 16:04:19 -0300</pubDate>
 </item>
 </channel>
 </rss>
