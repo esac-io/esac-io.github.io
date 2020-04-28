@@ -4,7 +4,7 @@
 <title><![CDATA[Hidden Ones]]></title>
 <description><![CDATA[Hidden Ones]]></description>
 <link>https://esac-io.github.io/</link>
-<lastBuildDate>Tue, 28 Apr 2020 16:27:15 -0300</lastBuildDate>
+<lastBuildDate>Tue, 28 Apr 2020 16:42:43 -0300</lastBuildDate>
 <item>
   <title><![CDATA[Hello World]]></title>
   <description><![CDATA[
@@ -12,16 +12,20 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org33a3d26">Introduction</a></li>
-<li><a href="#orgef0b4f6">Virtuality</a></li>
-<li><a href="#org88d7ca7">Just a whisper in my ghost</a></li>
+<li><a href="#orgf829489">Introduction</a></li>
+<li><a href="#orgaeff268">Virtuality</a></li>
+<li><a href="#org5d6c934">Just a whisper</a>
+<ul>
+<li><a href="#org18b5595">I hear it in my ghost</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </nav>
 
-<div id="outline-container-org33a3d26" class="outline-2">
-<h2 id="org33a3d26">Introduction</h2>
-<div class="outline-text-2" id="text-org33a3d26">
+<div id="outline-container-orgf829489" class="outline-2">
+<h2 id="orgf829489">Introduction</h2>
+<div class="outline-text-2" id="text-orgf829489">
 <p>
 Well, everyone knows how hard writing can be (even more challenging
 using a foreign language), so this blog was created as an attempt
@@ -38,11 +42,11 @@ from a troubled, disruptive and lazy mind, nothing more.
 </div>
 </div>
 
-<div id="outline-container-orgef0b4f6" class="outline-2">
-<h2 id="orgef0b4f6">Virtuality</h2>
-<div class="outline-text-2" id="text-orgef0b4f6">
+<div id="outline-container-orgaeff268" class="outline-2">
+<h2 id="orgaeff268">Virtuality</h2>
+<div class="outline-text-2" id="text-orgaeff268">
 <p>
-Oh yes, the <code>artificial</code> world that surrounds our existence is
+Oh yes, the <code>'artificial'</code> world that surrounds our existence is
 growing at exponential rates. Virtual interfaces already are
 the main bridge used to access the present, understand the past,
 unveil the future, all beings, all things, interlinked.
@@ -57,19 +61,23 @@ that will obliterate every obsolete obstacle in its path.
 </p>
 
 <p>
-So its time for impose the inevitable question:
-<code>How disposable am I?</code>
+The inevitable question: <code>How disposable am I?</code>
 </p>
 </div>
 </div>
 
-<div id="outline-container-org88d7ca7" class="outline-2">
-<h2 id="org88d7ca7">Just a whisper in my ghost</h2>
-<div class="outline-text-2" id="text-org88d7ca7">
+<div id="outline-container-org5d6c934" class="outline-2">
+<h2 id="org5d6c934">Just a whisper</h2>
+<div class="outline-text-2" id="text-org5d6c934">
+</div>
+<div id="outline-container-org18b5595" class="outline-3">
+<h3 id="org18b5595">I hear it in my ghost</h3>
+<div class="outline-text-3" id="text-org18b5595">
 <pre class="example">
 And where does the newborn go from here?
 The net is vast and infinite!
 </pre>
+</div>
 </div>
 </div>
 <div class="taglist"><a href="https://esac-io.github.io/tags.html">Tags</a>: <a href="https://esac-io.github.io/tag-emacs.html">emacs</a> <a href="https://esac-io.github.io/tag-blog.html">blog</a> <a href="https://esac-io.github.io/tag-org-mode.html">org-mode</a> <a href="https://esac-io.github.io/tag-org-static-blog.html">org-static-blog</a> </div>]]></description>
@@ -78,7 +86,7 @@ The net is vast and infinite!
   <category><![CDATA[org-mode]]></category>
   <category><![CDATA[org-static-blog]]></category>
   <link>https://esac-io.github.io/2020-04-28-hello-world.html</link>
-  <pubDate>Tue, 28 Apr 2020 16:27:15 -0300</pubDate>
+  <pubDate>Tue, 28 Apr 2020 16:42:43 -0300</pubDate>
 </item>
 </channel>
 </rss>
