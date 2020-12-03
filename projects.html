@@ -1,115 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<link rel="alternate"
-      type="application/rss+xml"
-      href="https://esac-io.github.io/rss.xml"
-      title="RSS feed for https://esac-io.github.io/"/>
+<!-- 2020-12-03 Thu 19:44 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Projects</title>
-<meta name="author" content="esac-io">
+<meta name="generator" content="Org mode">
 <meta name="referrer" content="no-referrer">
 <link href="static/style.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" href="static/favicon.ico">
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
 </head>
 <body>
 <div id="preamble" class="status">
 <div class="header">
-  <a href="index.html" id="cover">
-    <img alt="" src="static/cover.jpg" id="cover"/>
-  </a>
   <div class="sitelinks">
-    <a href="index.html">/home </a>
-    <a href="about.html">/about </a>
-    <a href="projects.html">/projects </a>
-    <a href="archive.html">/archive </a>
-    <a href="https://github.com/esac-io">/github </a>
-    <a href="rss.xml">/rss</a>
+    <a href="index.html">Blog </a>•
+    <a href="about.html">About </a>•
+    <a href="projects.html">Projects </a> •
+    <a href="https://github.com/lambdart">Github</a>
   </div>
 </div>
 </div>
 <div id="content">
-<div class="post-date">28 Apr 2020</div><h1 class="post-title"><a href="https://esac-io.github.io//usr/home/esac/core/dev/hidden-ones/blog/pages/projects.html">Projects</a></h1>
 <nav id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgcd75a4e">EOS</a></li>
-<li><a href="#orga3f172d">Shini</a></li>
-<li><a href="#orgb4dd788">Nand2Tetris</a></li>
+<li><a href="#orgd65441a">VLM</a></li>
+<li><a href="#org05ba629">Cannon</a></li>
+<li><a href="#org75f0bd4">EOF</a></li>
 </ul>
 </div>
 </nav>
 
-<div id="outline-container-orgcd75a4e" class="outline-2">
-<h2 id="orgcd75a4e">EOS</h2>
-<div class="outline-text-2" id="text-orgcd75a4e">
+<div id="outline-container-orgd65441a" class="outline-2">
+<h2 id="orgd65441a">VLM</h2>
+<div class="outline-text-2" id="text-orgd65441a">
 <p>
-Just another org-mode based emacs configuration,
-or a elisp interpreter desktop distribution.
+Just another Emacs configuration written in the literate
+programming format with the help of <a href="https://orgmode.org">orgmode</a>, that has a simple
+goal: be just a configuration file, i.e, set custom values and
+hooks for the libraries of interest.
 </p>
 
 <p>
-Using Emacs (elisp interpreter) as the only IO bridge between human
-and machine. In other words, an Emacs configuration well designed and
-integrated, that provides a generic computer environment for everyday use.
-</p>
-
-<p>
-<a href="https://github.com/esac-io/eos">GITHUB</a>
-</p>
-</div>
-</div>
-
-<div id="outline-container-orga3f172d" class="outline-2">
-<h2 id="orga3f172d">Shini</h2>
-<div class="outline-text-2" id="text-orga3f172d">
-<p>
-Shini is a lkm (linux kernel module) rootkit. Its purpose is to be
-simple, modular, generic (without relying on an architecture) and to
-segment its logical behavior from its hook methods.
-</p>
-
-<p>
-<a href="https://github.com/esac-io/shini">GITHUB</a>
-</p>
-</div>
-</div>
-
-<div id="outline-container-orgb4dd788" class="outline-2">
-<h2 id="orgb4dd788">Nand2Tetris</h2>
-<div class="outline-text-2" id="text-orgb4dd788">
-<p>
-Nand2Tetris, is a course that aims to engineer a modern
-computer using NAND logic gates as the elementary building
-block and first abstraction layer. The components to be
-constructed are:
+Some people (including me) have started to refer to <code>Emacs</code> as a
+<code>LISP MACHINE</code>. It is not strictly a lisp machine because, clearly,
+it is a software program and not a physical computer, but as that line
+starts to blur it seems like a useful epithet for Emacs, because
+these days it looks more and more like an <b>Operating System</b>.
 </p>
 
 <ul class="org-ul">
-<li>Integrated Circuits</li>
-<li>RAM/ROM</li>
-<li>ALU/CPU</li>
-<li>Assembler</li>
-<li>Compiler</li>
-<li>High-Level Language</li>
-<li>Virtual Machine</li>
-<li>Operational System</li>
-<li>Tetris Game</li>
+<li><a href="https://github.com/lambdart/vlm">https://github.com/lambdart/vlm</a></li>
 </ul>
+</div>
+</div>
+
+<div id="outline-container-org05ba629" class="outline-2">
+<h2 id="org05ba629">Cannon</h2>
+<div class="outline-text-2" id="text-org05ba629">
+<p>
+An Elisp library that mimics the beloved <a href="https://tools.suckless.org/dmenu/">Dmenu</a> to launch unix
+utilities using the command prompt <code>minibuffer</code> interface.
+</p>
 
 <p>
-<a href="https://github.com/esac-io/Nand2Tetris">GITHUB</a>
+Going into detail, <b>Cannon</b> is a simple lightweight package that has
+no outside dependencies, relying on <code>completing-read</code> builtin
+<code>C</code>-function, providing completions collections plus mechanisms to
+launch applications - the process creation - directly from Emacs.
 </p>
+
+<p>
+The project’s name itself is a little joke about launching <code>Chrome</code>
+web browser: a heavily metal ball that causes nightmares.
+</p>
+
+<ul class="org-ul">
+<li><a href="https://github.com/lambdart/cannon">https://github.com/lambdart/cannon</a></li>
+</ul>
 </div>
 </div>
-<div class="taglist"></div></div>
-<div id="postamble" class="status"><br>
-<div class="site-footer">
-  <center>
-    Powered by <a href="https://github.com/bastibe/org-static-blog">org-static-blog</a><br>
-    org-mode version: 9.1.9
-  </center>
+
+<div id="outline-container-org75f0bd4" class="outline-2">
+<h2 id="org75f0bd4">EOF</h2>
+<div class="outline-text-2" id="text-org75f0bd4">
+<pre class="example">
+What is a man? A Miserable little pile of secrets!
+</pre>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div id="postamble" class="site-footer">
+    (describe-package '<a href="https://github.com/lambdart/org-weblog">org-weblog</a>)
 </div>
 </div>
 </body>
