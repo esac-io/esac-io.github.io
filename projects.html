@@ -1,59 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2020-12-03 Thu 20:48 -->
+<!-- 2021-01-24 Sun 21:31 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Projects</title>
 <meta name="generator" content="Org mode">
+<meta name="author" content="lambdart">
 <meta name="referrer" content="no-referrer">
 <link href="static/style.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" href="static/favicon.ico">
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2020 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
@@ -63,6 +40,7 @@ for the JavaScript code in this tag.
     <a href="index.html">Blog </a>•
     <a href="about.html">About </a>•
     <a href="projects.html">Projects </a> •
+    <a href="archive.html">Archive </a> •
     <a href="https://github.com/lambdart">Github</a>
   </div>
 </div>
@@ -72,66 +50,122 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd01803a">VLM</a></li>
-<li><a href="#org9ece607">Cannon</a></li>
-<li><a href="#org7a92d89">EOF</a></li>
+<li><a href="#orgecd1d2f">VLM</a></li>
+<li><a href="#org3dd09b9">Cannon</a></li>
+<li><a href="#orgdb94f8e">DDoc</a></li>
+<li><a href="#orgde57c41">Lazy-Load</a></li>
+<li><a href="#org1733afd">EOF</a></li>
 </ul>
 </div>
 </nav>
 
-<div id="outline-container-orgd01803a" class="outline-2">
-<h2 id="orgd01803a">VLM</h2>
-<div class="outline-text-2" id="text-orgd01803a">
+<div id="outline-container-orgecd1d2f" class="outline-2">
+<h2 id="orgecd1d2f">VLM</h2>
+<div class="outline-text-2" id="text-orgecd1d2f">
 <p>
-Just another Emacs configuration written in the literate
-programming format with the help of <a href="https://orgmode.org">orgmode</a>, that has a simple
-goal: be just a configuration file, i.e, set custom values and
+Just another <b>Emacs</b> configuration written in the literate
+programming format with the help of <a href="https://orgmode.org">org-mode</a>, that has a simple
+goal - be just a configuration file, i.e, set custom values and
 hooks for the libraries of interest.
 </p>
 
 <p>
-Some people (including me) have started to refer to <code>Emacs</code> as a
-<code>LISP MACHINE</code>. It is not strictly a lisp machine because, clearly,
-it is a software program and not a physical computer, but as that line
-starts to blur it seems like a useful epithet for Emacs, because
-these days it looks more and more like an <b>Operating System</b>.
-</p>
-
-<ul class="org-ul">
-<li><a href="https://github.com/lambdart/vlm">https://github.com/lambdart/vlm</a></li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org9ece607" class="outline-2">
-<h2 id="org9ece607">Cannon</h2>
-<div class="outline-text-2" id="text-org9ece607">
-<p>
-An Elisp library that mimics the beloved <a href="https://tools.suckless.org/dmenu/">Dmenu</a> to launch unix
-utilities using the command prompt <code>minibuffer</code> interface.
+Some people (including me) have started to refer to Emacs as a LISP MACHINE.
+It is not strictly a lisp machine because, clearly, it is a software
+program and not a physical computer, but as that line starts to blur
+it seems like a useful epithet for <b>Emacs</b>, because these days it
+looks more and more like an <code>OS</code>.
 </p>
 
 <p>
-Going into detail, <b>Cannon</b> is a simple lightweight package that has
-no outside dependencies, relying on <code>completing-read</code> builtin
-<code>C</code>-function, providing completions collections plus mechanisms to
-launch applications - the process creation - directly from Emacs.
+<a href="https://github.com/lambdart/vlm">https://github.com/lambdart/vlm</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3dd09b9" class="outline-2">
+<h2 id="org3dd09b9">Cannon</h2>
+<div class="outline-text-2" id="text-org3dd09b9">
+<p>
+An <b>Elisp</b> library that mimics the beloved <a href="https://tools.suckless.org/dmenu/">Dmenu</a> to launch <code>Unix</code>
+utilities using the <b>Emacs</b> command prompt interface, a.k.a, the
+<code>minibuffer</code>.
 </p>
 
 <p>
-The project’s name itself is a little joke about launching <code>Chrome</code>
-web browser: a heavily metal ball that causes nightmares.
+The project’s name itself is a joke about launching
+<code>Chrome</code> web browser inside <b>Emacs/Exwm</b> - a heavy metal ball that
+causes nightmares.
 </p>
 
-<ul class="org-ul">
-<li><a href="https://github.com/lambdart/cannon">https://github.com/lambdart/cannon</a></li>
-</ul>
+<p>
+<a href="https://github.com/lambdart/cannon">https://github.com/lambdart/cannon</a>
+</p>
 </div>
 </div>
 
-<div id="outline-container-org7a92d89" class="outline-2">
-<h2 id="org7a92d89">EOF</h2>
-<div class="outline-text-2" id="text-org7a92d89">
+<div id="outline-container-orgdb94f8e" class="outline-2">
+<h2 id="orgdb94f8e">DDoc</h2>
+<div class="outline-text-2" id="text-orgdb94f8e">
+<p>
+An Elisp library that provides instant offline access/management of
+mote then 200+ <b>Dash</b> documentation sets. It doesn't require <b>Dash</b>
+application, we rely on any <b>html</b> file browser, although <b>eww</b> text
+based broswer is highly recommended!
+</p>
+
+<p>
+<a href="https://github.com/lambdart/ddoc">https://github.com/lambdart/ddoc</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgde57c41" class="outline-2">
+<h2 id="orgde57c41">Lazy-Load</h2>
+<div class="outline-text-2" id="text-orgde57c41">
+<p>
+An Elisp library that provides automatic generation of load
+definitions (autoloads) from pre-configured directories, i.e,
+other libraries, accelerating <b>Emacs</b> initialization process.
+</p>
+
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Lazy-Load</td>
+<td class="org-left">(emacs-init-time)</td>
+</tr>
+
+<tr>
+<td class="org-left">No</td>
+<td class="org-left">4.871672671 seconds</td>
+</tr>
+
+<tr>
+<td class="org-left">Yes</td>
+<td class="org-left">0.489159734 seconds</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+<a href="https://github.com/lambdart/lazy-load">https://github.com/lambdart/lazy-load</a>
+</p>
+</div>
+</div>
+
+
+
+<div id="outline-container-org1733afd" class="outline-2">
+<h2 id="org1733afd">EOF</h2>
+<div class="outline-text-2" id="text-org1733afd">
 <pre class="example">
 What is a man? A Miserable little pile of secrets!
 </pre>
