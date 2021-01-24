@@ -1,59 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2020-12-03 Thu 20:48 -->
+<!-- 2021-01-24 Sun 21:31 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hello World</title>
 <meta name="generator" content="Org mode">
+<meta name="author" content="lambdart">
 <meta name="referrer" content="no-referrer">
 <link href="static/style.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" href="static/favicon.ico">
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2020 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
@@ -63,6 +40,7 @@ for the JavaScript code in this tag.
     <a href="index.html">Blog </a>•
     <a href="about.html">About </a>•
     <a href="projects.html">Projects </a> •
+    <a href="archive.html">Archive </a> •
     <a href="https://github.com/lambdart">Github</a>
   </div>
 </div>
@@ -72,27 +50,32 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org056aae3">Hello World</a></li>
-<li><a href="#org739442f">History</a></li>
-<li><a href="#org27f8512">Examples</a></li>
-<li><a href="#org95c7a89">Tables</a></li>
-<li><a href="#orgae68654">Lists</a>
+<li><a href="#orge10dfe3">Hello World</a></li>
+<li><a href="#org2bc7fb1">History</a></li>
+<li><a href="#orgca03786">Examples</a></li>
+<li><a href="#org5ab02cf">Tables</a>
 <ul>
-<li><a href="#orge5abddb">Simple</a></li>
-<li><a href="#org1e261f1">Numbered</a></li>
-<li><a href="#orgda7312e">Sublists</a></li>
+<li><a href="#orgf7effd3">Filled</a></li>
+<li><a href="#org7de9caa">Empty</a></li>
 </ul>
 </li>
-<li><a href="#orgaa3d3fb">EOF</a></li>
+<li><a href="#org9cb5aaf">Lists</a>
+<ul>
+<li><a href="#org282fe87">Simple</a></li>
+<li><a href="#org5378690">Numbered</a></li>
+<li><a href="#orgde3d7b7">Sublists</a></li>
+</ul>
+</li>
+<li><a href="#orgd5e74eb">EOF</a></li>
 </ul>
 </div>
 </nav>
 
-<div id="outline-container-org056aae3" class="outline-2">
-<h2 id="org056aae3">Hello World</h2>
-<div class="outline-text-2" id="text-org056aae3">
+<div id="outline-container-orge10dfe3" class="outline-2">
+<h2 id="orge10dfe3">Hello World</h2>
+<div class="outline-text-2" id="text-orge10dfe3">
 <p>
-<span class="timestamp-wrapper"><span class="timestamp">2020 Dec 03</span></span>
+<span class="timestamp-wrapper"><span class="timestamp">2020 Dec 02</span></span>
 </p>
 <hr>
 
@@ -112,9 +95,9 @@ installed, and that the operator understands how to use it.
 </div>
 </div>
 
-<div id="outline-container-org739442f" class="outline-2">
-<h2 id="org739442f">History</h2>
-<div class="outline-text-2" id="text-org739442f">
+<div id="outline-container-org2bc7fb1" class="outline-2">
+<h2 id="org2bc7fb1">History</h2>
+<div class="outline-text-2" id="text-org2bc7fb1">
 <p>
 While small test programs have existed since the development of
 programmable computers, the tradition of using the phrase "Hello,
@@ -130,29 +113,29 @@ memorandum by Brian Kernighan, Programming in C: A Tutorial.
 </div>
 </div>
 
-<div id="outline-container-org27f8512" class="outline-2">
-<h2 id="org27f8512">Examples</h2>
-<div class="outline-text-2" id="text-org27f8512">
+<div id="outline-container-orgca03786" class="outline-2">
+<h2 id="orgca03786">Examples</h2>
+<div class="outline-text-2" id="text-orgca03786">
 <p>
 The following is a list of "Hello, world" programs:
 </p>
 
 <div class="org-src-container">
-<pre class="src src-C"><span style="color: #5476a8;">main</span>( ) {
-  printf(<span style="color: #cd6889;">"hello, world\n"</span>);
+<pre class="src src-C"><span style="color: #4a708b;">main</span>( ) {
+  printf(<span style="color: #a85454;">"hello, world\n"</span>);
 }
 </pre>
 </div>
 
 
 <div class="org-src-container">
-<pre class="src src-common-lisp">(<span style="color: #a88654;">defun</span> <span style="color: #5476a8;">hello</span> ()
-  (format t <span style="color: #cd6889;">"Hello, World!~%"</span>))
+<pre class="src src-common-lisp">(<span style="color: #8b7355;">defun</span> <span style="color: #4a708b;">hello</span> ()
+  (format t <span style="color: #a85454;">"Hello, World!~%"</span>))
 </pre>
 </div>
 
 <div class="org-src-container">
-<pre class="src src-python"><span style="color: #a88654;">print</span> <span style="color: #cd6889;">"Hello, world!"</span>
+<pre class="src src-python"><span style="color: #8b7355;">print</span> <span style="color: #a85454;">"Hello, world!"</span>
 </pre>
 </div>
 
@@ -163,9 +146,13 @@ The following is a list of "Hello, world" programs:
 </div>
 </div>
 
-<div id="outline-container-org95c7a89" class="outline-2">
-<h2 id="org95c7a89">Tables</h2>
-<div class="outline-text-2" id="text-org95c7a89">
+<div id="outline-container-org5ab02cf" class="outline-2">
+<h2 id="org5ab02cf">Tables</h2>
+<div class="outline-text-2" id="text-org5ab02cf">
+</div>
+<div id="outline-container-orgf7effd3" class="outline-3">
+<h3 id="orgf7effd3">Filled</h3>
+<div class="outline-text-3" id="text-orgf7effd3">
 <table>
 
 
@@ -205,22 +192,86 @@ The following is a list of "Hello, world" programs:
 </div>
 </div>
 
-<div id="outline-container-orgae68654" class="outline-2">
-<h2 id="orgae68654">Lists</h2>
-<div class="outline-text-2" id="text-orgae68654">
+<div id="outline-container-org7de9caa" class="outline-3">
+<h3 id="org7de9caa">Empty</h3>
+<div class="outline-text-3" id="text-org7de9caa">
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div id="outline-container-orge5abddb" class="outline-3">
-<h3 id="orge5abddb">Simple</h3>
-<div class="outline-text-3" id="text-orge5abddb">
+</div>
+</div>
+
+<div id="outline-container-org9cb5aaf" class="outline-2">
+<h2 id="org9cb5aaf">Lists</h2>
+<div class="outline-text-2" id="text-org9cb5aaf">
+</div>
+<div id="outline-container-org282fe87" class="outline-3">
+<h3 id="org282fe87">Simple</h3>
+<div class="outline-text-3" id="text-org282fe87">
 <ul class="org-ul">
 <li>hey</li>
 <li>you</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org1e261f1" class="outline-3">
-<h3 id="org1e261f1">Numbered</h3>
-<div class="outline-text-3" id="text-org1e261f1">
+<div id="outline-container-org5378690" class="outline-3">
+<h3 id="org5378690">Numbered</h3>
+<div class="outline-text-3" id="text-org5378690">
 <ol class="org-ol">
 <li>foo</li>
 <li>bar</li>
@@ -229,9 +280,9 @@ The following is a list of "Hello, world" programs:
 </ol>
 </div>
 </div>
-<div id="outline-container-orgda7312e" class="outline-3">
-<h3 id="orgda7312e">Sublists</h3>
-<div class="outline-text-3" id="text-orgda7312e">
+<div id="outline-container-orgde3d7b7" class="outline-3">
+<h3 id="orgde3d7b7">Sublists</h3>
+<div class="outline-text-3" id="text-orgde3d7b7">
 <ul class="org-ul">
 <li>foo
 <ul class="org-ul">
@@ -263,11 +314,11 @@ The following is a list of "Hello, world" programs:
 </div>
 </div>
 </div>
-<div id="outline-container-orgaa3d3fb" class="outline-2">
-<h2 id="orgaa3d3fb">EOF</h2>
-<div class="outline-text-2" id="text-orgaa3d3fb">
+<div id="outline-container-orgd5e74eb" class="outline-2">
+<h2 id="orgd5e74eb">EOF</h2>
+<div class="outline-text-2" id="text-orgd5e74eb">
 <div class="org-src-container">
-<pre class="src src-emacs-lisp">(message <span style="color: #cd6889;">"hello world"</span>)
+<pre class="src src-emacs-lisp">(message <span style="color: #a85454;">"hello world"</span>)
 </pre>
 </div>
 </div>

@@ -1,59 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2020-12-03 Thu 20:48 -->
+<!-- 2021-01-24 Sun 21:31 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Blog</title>
 <meta name="generator" content="Org mode">
+<meta name="author" content="lambdart">
 <meta name="referrer" content="no-referrer">
 <link href="static/style.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" href="static/favicon.ico">
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2020 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
@@ -63,15 +40,16 @@ for the JavaScript code in this tag.
     <a href="index.html">Blog </a>•
     <a href="about.html">About </a>•
     <a href="projects.html">Projects </a> •
+    <a href="archive.html">Archive </a> •
     <a href="https://github.com/lambdart">Github</a>
   </div>
 </div>
 </div>
 <div id="content">
 
-<div id="outline-container-org54d07fc" class="outline-2">
-<h2 id="org54d07fc"><a href="virtuality.html">Manifesto</a> <span class="timestamp-wrapper"><span class="timestamp">2020 Dec 02</span></span></h2>
-<div class="outline-text-2" id="text-org54d07fc">
+<div id="outline-container-org510d8f6" class="outline-2">
+<h2 id="org510d8f6"><a href="virtuality.html">Virtuality</a> <span class="timestamp-wrapper"><span class="timestamp">2020 Dec 02</span></span></h2>
+<div class="outline-text-2" id="text-org510d8f6">
 <p>
 With the decline and eminent collapse of western civilization, a clear
 horizon is blossoming, it's almost palpable, alive, breath taking,
@@ -81,9 +59,9 @@ everything at the same time, existential detachment <a href="virtuality.html">(.
 </div>
 </div>
 
-<div id="outline-container-org3de25fb" class="outline-2">
-<h2 id="org3de25fb"><a href="hello-world.html">Hello World</a> <span class="timestamp-wrapper"><span class="timestamp">2020 Dec 02</span></span></h2>
-<div class="outline-text-2" id="text-org3de25fb">
+<div id="outline-container-org905bde3" class="outline-2">
+<h2 id="org905bde3"><a href="hello-world.html">Hello World</a> <span class="timestamp-wrapper"><span class="timestamp">2020 Dec 02</span></span></h2>
+<div class="outline-text-2" id="text-org905bde3">
 <p>
 A simple <b>hello-world</b> post to show off the <code>org-export</code>
 capabilities, helping me on the development of the front-end
